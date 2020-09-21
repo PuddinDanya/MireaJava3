@@ -16,17 +16,6 @@ public class Test {
         System.out.println(c1.getColor());
         System.out.println(c1.isFilled());
         System.out.println(c1.getRadius());
-        Shape s2 = new Shape() {
-            @Override
-            public double getArea() {
-                return 0;
-            }
-
-            @Override
-            public double getPerimeter() {
-                return 0;
-            }
-        };
         Shape s3 = new Rectangle(1.0, 2.0, "RED", false); // Upcast
         System.out.println(s3);
         System.out.println(s3.getArea());

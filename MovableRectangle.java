@@ -15,24 +15,26 @@ public class MovableRectangle implements Movable{
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
-
+    public String toString(){
+        return "(x1,y1): ("+this.x1+","+this.x1+") (x2,y2): ("+this.x2+","+this.y2+") xSpeed: "+this.xSpeed+" ySpeed: "+this.ySpeed;
+    }
     @Override
     public void moveUp() {
-
+        moveUp();
     }
 
     @Override
     public void moveDown() {
-
+        moveDown();
     }
 
     @Override
     public void moveLeft() {
-
+        moveLeft();
     }
 
     @Override
     public void moveRight() {
-
+        moveRight();
     }
 }
